@@ -3,7 +3,11 @@ personal python package
 
 how to use?
 
-
+Python 2.6.1 (r261:67515, Jun 24 2010, 21:47:49) 
+[GCC 4.2.1 (Apple Inc. build 5646)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
 >>> import sys
->>> sys.path.addpend("$PATH_OF_THIS_PACKAGE")
->>> import seungjin
+>>> sys.path.append("/Users/seungjin/Documents/seungjin_python_package/")
+>>> import seungjin.utils.functions as seungjin_func
+>>> seungjin_func.run_cmd("whoami")
+'seungjin\n'
