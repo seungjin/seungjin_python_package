@@ -1,1 +1,9 @@
 personal python package
+
+
+how to use?
+
+
+>>> import sys
+>>> sys.path.addpend("$PATH_OF_THIS_PACKAGE")
+>>> import seungjin
